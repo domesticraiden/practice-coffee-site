@@ -1,0 +1,172 @@
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+  align-items: center;
+}
+
+.header__navigation {
+  display: flex;
+  gap: 56px;
+}
+
+.header__navigation a {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  color: #282a3a;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.toppage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  gap: 24px;
+}
+
+.toppage h1 {
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+  text-align: center;
+}
+
+.toppage h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+
+.toppage a {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 24px 48px;
+  gap: 16px;
+  border: none;
+  border-radius: 0px 32px;
+  background: #6d1600;
+  text-decoration: none;
+}
+
+.toppage span {
+  font-family: Playfair Display SC;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  color: #fff;
+}
+
+.toppage__images {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0px;
+  gap: 16px;
+}
+
+.toppage__images img {
+  max-width: 243px;
+  width: 100%;
+}
+
+.toppage__images-left {
+  border-radius: 0px 80px;
+}
+
+.toppage__images-right {
+  border-radius: 80px 0px;
+}
+
+.toppage__blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toppage__blocks-container {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0px;
+  gap: 40px;
+}
+
+.toppage__blocks-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.toppage__blocks-block h2 {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 76.8px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #282a3a;
+}
+
+.toppage__blocks-block h3 {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: #282a3a;
+}
+
+.productspage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productspage h3 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #282a3a;
+}
+
+.productspage h2 {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: center;
+  color: #282a3a;
+}
+
+.productspage__categories {
+  margin-top: 80px;
+  padding: 8px;
+  background-color: #f6f6f6;
+}
+
+.productspage__categories a {
+  padding: 16px 40px;
+  gap: 10px;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.02em;
+  color: #282a3a;
+}
