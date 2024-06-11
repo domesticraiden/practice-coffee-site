@@ -625,3 +625,149 @@
   line-height: 33.6px;
   color: #fff;
 }
+
+.footer {
+  display: flex;
+  padding: 80px;
+  gap: 80px;
+  background: #282a3a;
+  color: #fff;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__credits {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer__credits-company {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer__credits-company h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57.6px;
+}
+
+.footer__credits-description span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.footer__credits-contact {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer__container h2 {
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 39.2px;
+  text-align: center;
+}
+
+.footer__container-categories {
+  display: flex;
+  gap: 124px;
+}
+
+.footer__container-categories-category {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.footer__container-categories-category-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__container-categories-category-links span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.footer__container-category-feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.footer__container-category-feedback-field {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 8px 8px 8px 24px;
+  gap: 40px;
+  border-radius: 16px;
+  background: #393b49;
+}
+
+.footer__container-category-feedback-field-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer__container-category-feedback-field-input input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #393b49;
+  border-radius: 5px;
+  caret-color: #fff;
+  background: transparent;
+}
+
+.footer__container-category-feedback-field-input input::placeholder {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer__container-category-feedback-field-input input {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+}
+
+.footer__container-category-feedback a {
+  padding: 16px 64px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #6d1600;
+}
+
+.footer__container-category-feedback span {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
